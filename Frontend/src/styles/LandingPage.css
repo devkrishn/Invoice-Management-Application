@@ -1,0 +1,58 @@
+body{
+    background-color: #1b3546;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    font-size: 16px;
+    margin: 0.375rem; 
+    background-color: #192e3c;
+}
+#btnadd{
+    flex-basis: 14rem;
+}
+#btnedit{
+    flex-basis: 14rem;
+}
+#btndel{
+    flex-basis: 14rem;
+}
+#btnpredict{
+    flex-basis: 14rem;
+}
+#btnanalytics{
+    flex-basis: 14rem;
+}
+#btnadv{
+    flex-basis: 14rem;
+}
+/* styling for add invoice modal */
+#addbtnadd{
+    flex-basis: 49%;
+}
+#addbtncancel{
+    flex-basis: 49%;
+}
+/* styling for edit button */
+#addbtnedit{
+    flex-basis: 49%;
+}
+#cancelbtnedit{
+    flex-basis: 49%;
+}
+/*Styling for delete confirm */
+#delbtncnf{
+    flex-basis: 49%;
+}
+#cancelbtncnf{
+    flex-basis: 49%;
+}
+/*Styling for advance search */
+#advbtncancel{
+    flex-basis: 49%;
+}
+#advbtnsrch{
+    flex-basis: 49%;
+}
